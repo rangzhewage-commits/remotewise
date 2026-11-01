@@ -13,7 +13,7 @@ coursera:{n:"Coursera",d:"University and industry courses and certificates.",pro
 udemy:{n:"Udemy",d:"Marketplace of self-paced courses.",pros:"Wide range of topics",cons:"Quality varies by instructor",c:"learn"},
 upwork:{n:"Upwork",d:"Freelance marketplace.",pros:"Large client base",cons:"Fees and competition; check country availability",c:"free"},
 fiverr:{n:"Fiverr",d:"Marketplace for packaged freelance services.",pros:"Clear service listings",cons:"Fees; competitive categories",c:"free"},
-resumeio:{n:"Resume builder (choose one)",d:"Online CV builders with templates.",pros:"Fast formatting",cons:"Compare pricing and export limits first",c:"cv"},
+resumeio:{n:"Resume.io",d:"Online CV builder with templates.",pros:"Fast formatting",cons:"Compare pricing and export limits first",c:"cv"},
 linkedin:{n:"LinkedIn",d:"Professional network and job search.",pros:"Recruiters actively search it",cons:"Premium features are paid",c:"career"}};
 const CATS={
 "remote-jobs":{t:"Remote Jobs",d:"Guides to finding legitimate remote work, for beginners and international applicants.",topics:["Remote jobs for beginners","International remote job platforms","Remote jobs without experience","Work-from-home opportunities","Roles open to international applicants"]},
@@ -23,7 +23,7 @@ const CATS={
 "ai-tools":{t:"AI & Productivity Tools",d:"Tools to apply, write and organise your work more efficiently.",topics:["AI tools for job seekers","Productivity software","Project management tools","Writing tools","Business automation tools"]},
 "online-learning":{t:"Online Learning",d:"Courses and platforms to build digital skills.",topics:["Online professional courses","Digital skills","Career certifications","Learning platforms","Professional development resources"]}};
 /* ===== ARTICLES: add an object to publish a new article. body = [[heading, paragraph | [bullets]], ...] ===== */
-const FC="Fact-check before publishing: platform features, fees and country eligibility change often. Verify on each official site.";
+const FC="Platform features, fees and country eligibility can change. Check the official provider website for the latest details before applying, signing up or paying.";
 const ARTS=[
 {s:"international-remote-job-websites",t:"15 Websites to Find International Remote Jobs",c:"remote-jobs",d:"A starting list of remote job boards and marketplaces, with advice on checking eligibility.",tools:["linkedin","upwork"],body:[
 ["How to use this list","These are well-known places to look, not a promise of vacancies. Listings change daily, so always read the location rules in each posting."],
@@ -76,4 +76,5 @@ const ARTS=[
 SITE.domain='https://remotewise.pages.dev';
 SITE.googleVerification=''; /* paste the Google Search Console HTML-tag code here (content value only) */
 SITE.formUrl='';
+SITE.contactEmail=''; // Public contact address, added when confirmed.
 module.exports={SITE,PH,AFF,TOOLS,CATS,ARTS,FC};
