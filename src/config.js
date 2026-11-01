@@ -76,5 +76,5 @@ const ARTS=[
 SITE.domain='https://remotewise.pages.dev';
 SITE.googleVerification=''; /* paste the Google Search Console HTML-tag code here (content value only) */
 SITE.formUrl='';
-SITE.contactEmail=''; // Public contact address, added when confirmed.
+SITE.contactEmail='remotewise.contact@proton.me';
 module.exports={SITE,PH,AFF,TOOLS,CATS,ARTS,FC};
