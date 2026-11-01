@@ -74,7 +74,7 @@ const ARTS=[
 
 /* WEBSITE ADDRESS: the only place to change it. No trailing slash. Use your real pages.dev address (or custom domain later). */
 SITE.domain='https://remotewise.pages.dev';
-SITE.googleVerification=''; /* paste the Google Search Console HTML-tag code here (content value only) */
+SITE.googleVerification='LqVdAIyF8t7sNGT5_94PENAesyplJyrEofQESVq4-Q8'; /* paste the Google Search Console HTML-tag code here (content value only) */
 SITE.formUrl='';
 SITE.contactEmail='remotewise.contact@proton.me';
 module.exports={SITE,PH,AFF,TOOLS,CATS,ARTS,FC};
